@@ -1,10 +1,10 @@
-head{
+head {
     background-color: rgb(109, 0, 139);
-    font-palette:white;
+    font-palette: white;
 }
 
 header {
-    background-image:linear-gradient(to bottom, blueviolet, rgb(170, 136, 202));
+    background-image: linear-gradient(to bottom, blueviolet, rgb(170, 136, 202));
     text-align: center;
     min-height: 150px;
     padding: 40px;
@@ -24,8 +24,9 @@ header>h3 {
 a {
     text-decoration: none;
 }
+
 li {
-    list-style: none; 
+    list-style: none;
     margin: 10px;
     display: inline;
 
@@ -34,10 +35,10 @@ li {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color:white;
-    text-align:justify;
-    color:rgb(98, 5, 186);
-    
+    background-color: white;
+    text-align: justify;
+    color: rgb(66, 3, 124);
+
 }
 
 table {
@@ -47,42 +48,45 @@ table {
 }
 
 p {
-   font-size: large;
-   
+    font-size: large;
+
 }
+
 img {
-    border-radius:10px ;
-    margin:auto;
+    border-radius: 10px;
+    margin: auto;
     align-items: center;
 }
- 
-.navbar {
-     display: flex;
-     text-align: center;
-     justify-content: space-between;
-     padding: 20px;
-     color: floralwhite 
-    }
 
-.navlinks a {  
-    color: floralwhite 
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: floralwhite
 }
-.logo { 
+
+.navlinks a {
+    color: floralwhite
+}
+
+.logo {
     font-size: 32px;
 }
-.menu { 
-      display: flex;
-      gap: 1em; 
-      font-size: 18px;
-    }
-.menu li:hover { 
-    background-color:blueviolet ; 
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: blueviolet;
     border-radius: 5px;
-    transition:0.3 ease;
-    }
+    transition: 0.3 ease;
+}
+
 .menu li {
     padding: 5px 14px;
     align-items: center;
 }
-
-
